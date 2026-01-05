@@ -75,5 +75,6 @@ public class EmployeeShift {
     public void setShiftStart(LocalTime shiftStart) {
         this.shiftStart = shiftStart;
     }
+
 }
 
