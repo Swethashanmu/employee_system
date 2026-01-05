@@ -1,0 +1,41 @@
+<html>
+<body>
+<a href="add-employee.html">add employe</a>
+<form action="delete_employee" method="get">
+    enter the employee_id u want to delete:<input type="text" name="e_id">
+    <button type="submit">delete employee</button>
+</form>
+<form action="deactivate" method="get">
+    enter the employee_id u want to deactivate:<input type="number" name="e_id">
+    <!--<select name="status">
+        <option value="ACTIVE">ACTIVE</option>
+        <option value="INACTIVE">INACTIVE</option>
+        <option value="ON_LEAVE">ON_LEAVE</option>
+    </select>!-->
+    <button type="submit">deactivate</button>
+</form>
+<a href="add-shift.html">add_shift</a>
+<form action="add_shift_to_emp" method="post">
+    enter the shift_id:<input type="number" name="s_id">
+    enter the employee_id:<input type="number" name="e_id">
+    <button type="submit">add_employee</button>
+</form>
+<form action="Delete_shift" method="get">
+    enter the shift_id u want to delete:<input type="text" name="s_id">
+    <button type="submit">delete_shift</button>
+</form>
+<form action="task_created" method="post">
+    enter the task_name:<input type="text" name="task">
+    enter employee id:<input type="number" name="emp_id">
+    enter manager id:<input type="number" name="man_id">
+    <button type="submit">create_task</button>
+</form>
+<form action="task_assign" method="get">
+    <button type="submit">ressign</button>
+</form>
+<!--<a href="task-reassign.jsp">reassignTask</a>-->
+<form action="Get_leave_request" method="get">
+<button type="submit">leave request</button>
+</form>
+</body>
+</html>
